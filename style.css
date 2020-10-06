@@ -100,6 +100,11 @@ header {
 	color: #bbb;
 }
 
+/*remove bullet points for list items in about section*/
+.skill-list li {
+	list-style-type: none;
+}
+
 .form {
 	margin: 30px;
 	width: 900px;
