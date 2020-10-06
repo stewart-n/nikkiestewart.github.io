@@ -1,6 +1,6 @@
 # nikkiestewart.github.io
-Personal Portfoliio
-<img src="
+Personal Portfolio
+<img width="1776" alt="image" src="https://user-images.githubusercontent.com/59904591/95158830-744ed180-0751-11eb-9850-720c3dce3568.png">
 
 Author: Nikkie Stewart
 Class:
