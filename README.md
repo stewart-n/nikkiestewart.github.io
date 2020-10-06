@@ -14,7 +14,7 @@ JavaScript
 
 Project Deployment:
 
-Go to http://nikkiestewart.github.io or click on the index.html file.
+click on the index.html file.
 
 License:
 
