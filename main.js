@@ -1,4 +1,5 @@
 // Check if the fields are empty or not.
+const checkIfEmpty = document.querySelector(".myform");
 
 function isEmpty() {
   if (document.querySelector("fieldinfo").value == "") {
@@ -8,3 +9,6 @@ function isEmpty() {
     alert("Contact information Successful!");
   }
 }
+
+checkIfEmpty.addEventListener("submit", isEmpty);
+
