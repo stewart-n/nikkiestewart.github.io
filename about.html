@@ -26,9 +26,12 @@
     />
 
     <!-- icon library -->
+    <!-- update the library link so that the icons can show up properly -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
     />
   </head>
   <body>
@@ -44,6 +47,7 @@
           <li class="nav-item"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <!-- you may consider putting About Me and Project Link outside the <header></header>  -->
       <!-- About me -->
       <div class="welcome">
         <h1>About me</h1>
@@ -64,9 +68,9 @@
         <div class="container">
           <div class="row">
             <div class="col-6">
-              <h2>Technical Skills</h2>
+              <h3>Technical Skills</h3>
               <ul class="skill-list">
-                <li class="skill-item"><a> Javascript </a></li>
+                <li class="skill-item"><a> Javascript</a></li>
                 <li class="skill-item"><a> Python </a></li>
                 <li class="skill-item"><a> Java </a></li>
                 <li class="skill-item"><a> HTML </a></li>
@@ -74,26 +78,36 @@
               </ul>
             </div>
             <div class="col">
-              <h2>Soft Skills</h2>
+              <h3>Soft Skills</h3>
               <ul class="skill-list">
                 <li class="skill-item"><a> Team Player </a></li>
                 <li class="skill-item"><a> Ethical </a></li>
-                <li class="skill-item"><a> Interpersonal Communication </a></li>
                 <li class="skill-item"><a> Responsibility </a></li>
                 <li class="skill-item"><a> Problem Solver </a></li>
+                <li class="skill-item"><a> Interpersonal Communication </a></li>
               </ul>
             </div>
           </div>
         </div>
         <!-- Project Link to Github -->
         <div class="projects">
-          <h2>Projects</h2>
-          <button style="font-size: 18px">
-            Click me
-            <i class="fa fa-github"
-              ><a href="https://github.com/stewart-n"></a
-            ></i>
-          </button>
+          <h2>Projects/Social Media</h2>
+          <!-- remove the list structure of these three icons -->
+          <div class="links">
+            <a href="https://github.com/stewart-n" target="_blank">
+              <!-- change the location of where to put the text -->
+              <i class="fab fa-github"></i>Github</a
+            >
+            <a
+              href="https://www.linkedin.com/in/nikkiestewart/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>LinkedIn</a
+            >
+            <a href="#" target="_blank">
+              <i class="fab fa-instagram"></i>Instagram</a
+            >
+          </div>
         </div>
         <a href="contact.html">Contact Me</a>
       </div>
