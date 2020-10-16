@@ -3,7 +3,10 @@
   <head>
     <!-- meta tags -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=yes"
+    />
     <meta name="author" content="Nikkie Stewart" />
     <meta name="description" content="Nikkie's Professional Page" />
     <meta rel="icon" type="images/png" href="NEUprophoto.png" />
@@ -32,43 +35,47 @@
         </ul>
       </nav>
       <div class="contact">
+        <!-- you may get h1 out of the form -->
+        <h1 class="me text-center">Contact Me</h1>
+
         <form id="myForm" class="form">
-          <h1 class="me">Contact Me</h1>
           <div class="user-info">
-            <div class="row1" style="--index: 0">
-              <div class="textfield">
-                <input type="text" class="text-input">
-                <span class="fieldinfo"> First Name </span> 
-              </div>
-
-              <div class="textfield">
-                <input type="text" class="text-input">
-                <span class="fieldinfo"> Last Name </span>
-              </div>
-            <div class="row2" style="--index: 1">
-              <div class="textfield">
-                <input type="text" class="text-input">
-                <span class="fieldinfo"> Email </span>
-              </div>
+            <!-- you don't neccessarily need to use several rows here -->
+            <div class="textfield">
+              <input type="text" class="text-input" />
+              <span class="fieldinfo"> First Name </span>
             </div>
 
-            <div class="row3" style="--index: 2">
-              <div class="textfield">
-                <input type="text" class="text-input">
-                <span class="fieldinfo"> Message </span>
-              </div>
+            <div class="textfield">
+              <input type="text" class="text-input" />
+              <span class="fieldinfo"> Last Name </span>
+            </div>
+            <div class="textfield">
+              <!-- use type="email" so that it will check if the input has a valid email format -->
+              <input type="email" class="text-input" />
+              <span class="fieldinfo"> Email </span>
             </div>
 
-            <div class="row4" style="--index: 3">
-              <button type="submit" onclick="isEmpty()">Submit</button>
+            <div class="textfield">
+              <input type="text" class="text-input" />
+              <span class="fieldinfo"> Message </span>
             </div>
+
+            <!-- use a bootstrap button to make it look better -->
+            <button
+              id="submit"
+              type="button"
+              class="btn btn-light btn-sm"
+              onclick="isEmpty()"
+            >
+              Submit
+            </button>
           </div>
         </form>
-        <p></p>
       </div>
     </header>
     <footer class="footer">
-      <p> Contact email: stewart.n@northeastern.edu</p>
+      <p>Contact email: stewart.n@northeastern.edu</p>
     </footer>
     <script src="main.js"></script>
   </body>

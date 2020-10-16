@@ -100,6 +100,16 @@ header {
 	color: #bbb;
 }
 
+/*remove bullet points for list items in about me section*/
+.skill-list li {
+	list-style-type: none;
+}
+
+/*change the text color to black so it won't be white when hover on it*/
+.skill-list li:hover {
+	color: #000000;
+}
+
 .form {
 	margin: 30px;
 	width: 900px;
